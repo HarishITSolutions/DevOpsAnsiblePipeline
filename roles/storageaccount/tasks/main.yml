@@ -1,0 +1,8 @@
+---
+# tasks file for roles/storageaccount
+
+- name: Create storage account
+  azure_rm_storageaccount:
+    resource_group: azuredevops-rg
+    name: "{{ storageaccount.name }}"
+    account_type: Standard_LRS
