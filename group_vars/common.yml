@@ -1,0 +1,21 @@
+##################################################
+# Common Variables
+##################################################
+
+app:
+    name: "azuredevops"
+
+azure:
+    location: "uksouth"
+
+storageaccount:
+    name: "testgevaccountnt001"
+
+##################################################
+# Defaults - These should be OK to leave as is
+##################################################
+
+# Dictionary - for affixes
+##################################################
+dict:
+  resource_group: "rg"
